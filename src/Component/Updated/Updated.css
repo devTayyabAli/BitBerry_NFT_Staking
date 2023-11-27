@@ -1,0 +1,90 @@
+.htu{
+    /* color: #ffc107; */
+    font-size: 1.75rem;
+}
+h1,h2,h3,h4,h5,h6,p,span,a,small{
+    font-family: 'Kanit', sans-serif !important;
+
+
+}
+
+
+.htu_p{
+    color: #bdb9f0;
+
+    font-size: 1.25rem;
+    text-align: center !important;
+ 
+    padding: 10px 50px !important;
+}
+
+.add_liqui{
+    background: linear-gradient(-65deg,#c165dd,#1153fc);
+    border: 0;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.up_box{
+    background-color: transparent;
+    /* border-color: #bdb9f0; */
+    border: 1px solid #bdb9f0 !important;
+    display: flex !important;
+    padding: 10px 20px !important ;
+
+    color: #fff;
+    margin-bottom: 1rem;
+    align-items: center !important;
+}
+
+.up_box:hover{
+    /* background: rgb(24, 22, 82); */
+    /* background: linear-gradient(#181652,#181652) padding-box,linear-gradient(45deg,#89d2f3,#a67cff) border-box!important; */
+    background: linear-gradient(98.76deg, rgb(56, 195, 207) 0%, rgb(135, 103, 211) 100%) !important;
+}
+
+.icon_fs{
+    font-size: 26px !important;
+    margin-right: 10px !important;
+}
+.res_size{
+    width:95% !important
+}
+
+
+/* foooter css is here  */
+
+
+.footer_logo{
+    width: 45% !important;
+}
+
+.footer_links{
+    color: #fff !important;
+    text-decoration: none !important;
+}
+.footer_links:hover{
+    text-decoration: underline !important;
+}
+.main_clr{
+    background: rgb(24, 22, 82) !important;
+    padding: 20px 10px !important;
+}
+
+
+
+@media only screen and (max-width: 768px){  
+
+.res_size{
+    width: 300px !important;
+}
+.res_pon_ali{
+    display: flex !important;
+    justify-content: center !important;
+    
+}
+
+.back{
+    background-position: 10% 20% , 95% 90%!important;
+}
+}
